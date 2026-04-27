@@ -51,14 +51,14 @@ int main() {
     }
 
     if (data.count % 2 == 0) {
-        data.median = (data.angin[data.count/2] + data.angin[data.count/2 - 1]) / 2;
+        float a = data.angin[data.count/2]+data.angin[data.count/2 - 1];
+        float b= 2;
+        data.median = a/b;
+        printf("MEDIAN %.2f\n", data.median);
     } else {
         data.median = data.angin[data.count/2];
-    }
-    if(data.count%2 ==0 ){
-    printf("MEDIAN %.2f\n", data.median);
-    }else{
         printf("MEDIAN %.0f\n", data.median);
+
     }
     free(data.angin);
     return 0;
