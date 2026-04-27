@@ -1,3 +1,12 @@
+/** EL2008 Praktikum Pemecahan Masalah dengan Pemrograman 2024/2025
+ *   Modul               : 3 – Structures and Dynamic Arrays
+ *   Hari dan Tanggal    : Senin 27 April 2026
+ *   Nama (NIM)          : Jonathan Chandra (13224103)
+ *   Nama File           : Soal1.c
+ *   Deskripsi           : Sensor badai dinamis
+ * 
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
