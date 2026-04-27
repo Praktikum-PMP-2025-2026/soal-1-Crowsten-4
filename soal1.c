@@ -4,7 +4,7 @@
 typedef struct Data {
     int *angin;
     int count;
-    int median;
+    float median;
 } Data;
 
 void bubbleSort(int arr[], int n)
@@ -55,7 +55,7 @@ int main() {
     } else {
         data.median = data.angin[data.count/2];
     }
-    printf("MEDIAN %d\n", data.median);
+    printf("MEDIAN %.2f\n", data.median);
     free(data.angin);
     return 0;
 }
