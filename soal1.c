@@ -42,14 +42,14 @@ int main() {
         data.angin[data.count++] = x;
     }
 
-    printf("COUNT: %d", data.count);
+    printf("COUNT %d ", data.count);
 
     bubbleSort(data.angin, data.count);
     printf("SORTED ");
     for (int i = 0; i < data.count; i++) {
         printf("%d ", data.angin[i]);
     }
-    
+
     if (data.count % 2 == 0) {
         data.median = (data.angin[data.count/2] + data.angin[data.count/2 - 1]) / 2;
     } else {
