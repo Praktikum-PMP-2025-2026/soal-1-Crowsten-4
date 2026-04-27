@@ -55,7 +55,11 @@ int main() {
     } else {
         data.median = data.angin[data.count/2];
     }
+    if(data.count%2 ==0 ){
     printf("MEDIAN %.2f\n", data.median);
+    }else{
+        printf("MEDIAN %.0f\n", data.median);
+    }
     free(data.angin);
     return 0;
 }
